@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clothes-container {
+    display: flex;
+    align-items: center;
+}
+
+#accessory-container, #tshirt-container, #pants-container, #shoes-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

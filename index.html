@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes generator</title>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-----------------------------------  HERO SECTION ------------------------------------>
+    <section class="hero">
+        <div id="left" class="left">
+            <h2> AWESOME </h2>
+        </div>
+        <div  id="right" class="right">
+            <h2> FASHION </h2>
+        </div>
+        <h1  id="home" >Be styled everyday! &#128526; </h1>
+
+        <div class="image-hero">
+            <img src="./utils/hero.png" alt="Your Image" >
+        </div>
+        
+        <button class="shape-btn"><a class="link"href="#random-tshirt-button">START GENERATE &#8594;</a> </button> 
+           
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#clothes">Clothes</a></li>
+                <li><a class="nav-link" href="#footer">Footer</a></li>
+            </ul>
+        </nav> 
+
+        <div class="social">
+            <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-behance"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+            </ul>
+        </div>
+        
+    </section>
+    <!--------------------------------- CLOTHES SECTION ------------------------------------>
+
+    <section id="clothes">
+        
+        <div class="input-clothes">
+            <div class="div-gender">
+                <label for="gender">Your gender</label>
+                <select name="gender" id="gender-info">
+                    <option value="Man">Man</option>
+                    <option value="Women">Woman</option>
+                </select>
+            </div>
+            
+            <div class="div-cityInput">
+                <label for="cityInput">Enter City:</label>
+                <input type="text" id="cityInput" placeholder="city name">                
+            </div>
+            <div class="div-weather">                
+                <label for="weather">What is the weather?</label>
+                <select name="weather" id="weather-info">
+                    <option value="Hot">Sunny</option>
+                    <option value="Cold">Cloudy</option>
+                </select>                
+            </div>
+            <div class="image-container">
+                <img src="./utils/hot.gif" alt="Your Image" class="image">
+            </div>
+            <button id="btn-weather"> &#128073 Get Weather</button>     
+        </div>
+    
+        <div id="weatherData">
+            <!-- Weather data will be displayed here -->
+        </div>
+
+        <!------------------------- CONTAINER FOR THE CLOTHES -------------------->
+        <div class="button_clothes">
+            <button  id="random-tshirt-button"> GENERATE CLOTHES  <span class="span">&#8595;</span></button> 
+        </div>
+       
+        <div class="title_h2">
+            <h2>  Cool style 1 </h2>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div id="accessory-container" class="image1 card-1">
+                    <img id="accessory-image" src="" alt="accessories" width="" height="" />
+                </div>
+    
+                <div class="content">
+                    <h3> Accessory </h3>
+                    <p> Stylish, versatile, trendy</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div id="tshirt-container" class="image1 card-1">
+                    <img id="tshirt-image" src="" alt="T-shirt" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Torso</h3>
+                    <p>Upper body, core, chest</p>
+                    <button class="btn">View Now  &#127895;</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="pants-container" class="image1 card-1">
+                    <img id="pants-image" src="" alt="Pants" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Trousers/Pants</h3>
+                    <p>Comfortable, fashionable</p>
+                    <button class="btn">View Now &#127895; </button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="shoes-container" class="image1 card-1">
+                    <img id="shoes-image" src="" alt="shoes" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Shoes</h3>
+                    <p> Footwear, comfortable</p>
+                    <button class="btn">View Now  &#127895;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="title_h2">
+            <h2>  Cool style 2 </h2>          
+        </div>
+       
+        <div class="container">            
+            <div class="card">
+                <div id="accessory-container" class="image1 card-1">
+                    <img id="accessory-image1" src="" alt="accessories" width="" height="" />
+                </div>    
+                <div class="content">
+                    <h3> Accessory </h3>
+                    <p> Stylish, versatile, trendy</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="tshirt-container" class="image1 card-1">
+                    <img id="tshirt-image1" src="" alt="T-shirt" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Torso</h3>
+                    <p>Upper body, core, chest</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="pants-container"  class="image1 card-1">
+                    <img id="pants-image1" src="" alt="Pants" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Trousers/Pants</h3>
+                    <p>Comfortable, fashionable</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="shoes-container" class="image1 card-1">
+                    <img id="shoes-image1" src="" alt="shoes" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Shoes</h3>
+                    <p> Footwear, comfortable</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="title_h2">
+            <h2>  Cool style 3 </h2>
+        </div>
+
+        <div class="container">           
+            <div class="card">
+                <div id="accessory-container" class="image1 card-1">
+                    <img id="accessory-image2" src="" alt="accessories" width="" height="" />
+                </div>   
+                <div class="content">
+                    <h3> Accessory </h3>
+                    <p> Stylish, versatile, trendy</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="tshirt-container"  class="image1 card-1">
+                    <img id="tshirt-image2" src="" alt="T-shirt" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Torso</h3>
+                    <p>Upper body, core, chest</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="pants-container" class="image1 card-1">
+                    <img id="pants-image2" src="" alt="Pants" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Trousers/Pants</h3>
+                    <p>Comfortable, fashionable</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+            <div class="card">
+                <div id="shoes-container" class="image1 card-1">
+                    <img id="shoes-image2" src="" alt="shoes" width="" height="" />
+                </div>
+                <div class="content">
+                    <h3>Shoes</h3>
+                    <p> Footwear, comfortable</p>
+                    <button class="btn">View Now &#127895;</button>
+                </div>
+            </div>
+        </div>
+
+
+    
+
+    </section>
+
+
+    <!--------------------------------- CLOTHES SECTION ------------------------------------>
+    <footer id="footer">
+        <p>
+            This website is made using Html , CSS , Vanilla js and Gsap ! <a href="#home">Go up &#11014;</a>
+        </p>
+    </footer>
+
+
+    <!--------------------------------- IMPORT JS LIBRARY ---------------------------------->
+    <script type="module" src="./main.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    
+</body>
+</html>
