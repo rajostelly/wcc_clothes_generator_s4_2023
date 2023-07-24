@@ -3,7 +3,7 @@
 
 ## Demo
 
-Link to the live demo[: https://wcc-clothes-generator-s4-2023.netlify.app/
+Link to the live demo : https://wcc-clothes-generator-s4-2023.netlify.app/
 
 ## Technologies Used
 
