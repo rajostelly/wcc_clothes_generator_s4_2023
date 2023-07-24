@@ -14,7 +14,7 @@ Link to the live demo : https://wcc-clothes-generator-s4-2023.netlify.app/
 
 ## How to install this project:
 
--git clone https://github.com/rajostelly/wcc_clothes_generator_s4_2023.git
+- git clone https://github.com/rajostelly/wcc_clothes_generator_s4_2023.git
 - Afterward, host it locally using Visual Studio Code's Live Server.
 - It is preferable to run it locally for the weather API to work properly.
 
