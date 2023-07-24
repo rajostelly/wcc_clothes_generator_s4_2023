@@ -21,5 +21,5 @@ Link to the live demo : https://wcc-clothes-generator-s4-2023.netlify.app/
 ### Contributors
 
 - rajostelly : Fullstack Developer
-- Antsa03 : Backend Development
+- Antsa03 : Backend Developer
 
