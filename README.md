@@ -1,5 +1,5 @@
 # wcc_clothes_generator_s4_2023
-"TechZara wcc 2023 Developer Contest"
+" TechZara wcc 2023 Developer Contest "
 
 ## Demo
 
