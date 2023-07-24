@@ -12,6 +12,10 @@ Link to the live demo : https://wcc-clothes-generator-s4-2023.netlify.app/
 - Vanilla JavaScript
 - GSAP (GreenSock Animation Platform)
 
+## How to install this project:
+
+-git clone
+
 ### Contributors
 
 - rajostelly : Fullstack Developer
